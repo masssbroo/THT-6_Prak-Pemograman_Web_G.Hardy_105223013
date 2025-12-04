@@ -1,0 +1,29 @@
+<div class="col-12 col-md-8 col-lg-6">
+  
+  <div id="successMessage" class="alert alert-success d-none" role="alert">
+    Pesan berhasil dikirim!
+  </div>
+
+  <form id="contactForm" novalidate>
+    
+    <div class="mb-3">
+      <label for="nama" class="form-label">Nama</label>
+      <input type="text" class="form-control" id="nama">
+      <small id="error-nama" class="text-danger d-none">Nama harus diisi.</small>
+    </div>
+
+    <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email">
+      <small id="error-email" class="text-danger d-none">Email harus diisi.</small>
+    </div>
+
+    <div class="mb-3">
+      <label for="pesan" class="form-label">Pesan</label>
+      <textarea class="form-control" id="pesan" rows="3"></textarea>
+      <small id="error-pesan" class="text-danger d-none">Pesan tidak boleh kosong.</small>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Kirim</button>
+  </form>
+</div>
